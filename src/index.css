@@ -1,12 +1,12 @@
 body {
-    font: 14px "Century Gothic", Futura, sans-serif;
-    margin: 20px;
+    font: 2rem "Century Gothic", Futura, sans-serif;
+    margin: 3rem;
     background-color:rgb(17, 17, 17);
     color: white;
   }
   
   ol, ul {
-    padding-left: 30px;
+    padding-left: 3rem;
   }
   
   .board-row:after {
@@ -16,22 +16,20 @@ body {
   }
   
   .status {
-    margin-bottom: 10px;
+    font-size: 2rem;
+    margin: .5rem;
   }
   
-  .square {
+  .square {background-color: white;
     background: rgb(255, 255, 255);
     border: 1px solid rgb(126, 126, 126);
     float: left;
     font-size: 2rem;
     font-weight: bold;
-    line-height: 4rem;
-    height: 4rem;
-    margin-right: -1px;
-    margin-top: -1px;
-    padding: 0;
+    line-height: 5rem;
     text-align: center;
-    width: 4rem;
+    width: 33.33%;
+    height: 5rem;
   }
   
   .square:focus {
@@ -53,14 +51,16 @@ body {
   }
 
   .pastMoves {
-    background-color: rgb(23, 23, 23);
+    background-color: rgb(36, 36, 36);
     color: white;
     font-size: 1.5rem;
+    width: 100%;
     border: 0px;
     margin: .1rem;
   }
+
   .pastMoves:hover {
-    background-color: aqua;
+    background-color: rgb(255, 178, 55);
   }
   
   .game-info {
