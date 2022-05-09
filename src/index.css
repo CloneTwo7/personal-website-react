@@ -18,6 +18,7 @@ body {
   .status {
     font-size: 2rem;
     margin: .5rem;
+    text-align: center;
   }
   
   .square {background-color: white;
@@ -43,27 +44,28 @@ body {
   .game {
     margin-left: auto;
     margin-right: auto;
-    width: 16rem;
+    width: 16rem
   }
 
-  .moveTracker {
+  .moveEntry {
     list-style-type: none;
   }
 
-  .pastMoves {
+  .pastMove {
     background-color: rgb(36, 36, 36);
     color: white;
     font-size: 1.5rem;
+    border: 0;
     width: 100%;
-    border: 0px;
-    margin: .1rem;
+    height: 3rem;
+    margin: .25rem;
   }
 
-  .pastMoves:hover {
+  .pastMove:hover {
     background-color: rgb(255, 178, 55);
   }
   
-  .game-info {
-    margin-left: 20px;
+  .movesList {
+    margin: 0px;
+    display: contents;
   }
-  
